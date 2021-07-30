@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center p-2">Calculadora de notas para estudiantes</h1>
+        <div class="row">
+            <div class="col-4 p-5 bg-warning text-dark">
+                <h3>Tu porcentaje es:</h3>
+                <h3 id="porcentaje" class="text-white"></h3>
+                <h3>Tu calificación es:</h3>
+                <h3 id="calificacion" class="text-white"></h3>
+            </div>
+            <div class="col-8 p-5 bg-primary text-white">
+                <h3 class="m-2">Introduce tus notas</h3>
+                <input id="mates" type="text" class="form-control m-2" placeholder="Matemáticas">
+                <input id="fisica" type="text" class="form-control m-2" placeholder="Física">
+                <input id="geografia" type="text" class="form-control m-2" placeholder="Geografía e História">
+                <input id="ingles" type="text" class="form-control m-2" placeholder="Inglés">
+                <button id="boton" type="button" class="btn btn-success m-2" onclick="resultado()">Ver resultado</button>
+            </div>
+            <div class="col bg-light text-dark">
+                <h3 id="pasar" class="text-center p-3"></h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="script.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
